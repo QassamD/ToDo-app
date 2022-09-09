@@ -1,0 +1,28 @@
+form {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  border: 1px solid #d9eff7;
+}
+form input {
+  padding: 10px;
+  background-color: #9bbbfc;
+  border: 1px solid #d9eff7;
+  color: #4741a6;
+}
+form input::placeholder {
+  color: #4741a6;
+}
+
+form .TasK {
+  width: 55%;
+}
+form .Date {
+  width: 30%;
+}
+form .Action {
+  width: 15%;
+  background-color: #f9ce09;
+  border: 1px solid #f9ce09;
+  cursor: pointer;
+}
